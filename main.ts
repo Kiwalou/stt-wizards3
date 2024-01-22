@@ -3,8 +3,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairWest, function (spri
     game.over(false)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, function (sprite, location) {
-    game.showLongText("Top : https://www.jigidi.com/solve/", DialogLayout.Bottom)
-    game.showLongText("9lyb47se/stt-wizards/", DialogLayout.Bottom)
+    game.showLongText("N50°41.185 E004°38.631", DialogLayout.Bottom)
     game.over(true)
 })
 let mySprite = sprites.create(img`
